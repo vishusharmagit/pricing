@@ -39,6 +39,9 @@ App.controller('BookingController', ['$scope', function($scope) {
               $scope.companyName = {
             		  selectedName : null,
             		  data : [
+						{ "id" : 0,
+							"name" : "DBS"
+						},
     	    		    { "id" : 1,
     						"name" : "Amazon"
     					}, {

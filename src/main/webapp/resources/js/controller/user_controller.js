@@ -6,6 +6,20 @@ App.controller('UserController', ['$scope', '$rootScope', 'UserService', functio
           $scope.fromCurrencyList;
           $scope.toCurrencyList;
           
+          $scope.callOrPut = '';
+          $scope.callRadio = 'CALL';
+          $scope.putRadio = 'PUT';
+          $scope.radioClicked = function(d) {
+        	console.log(d);  
+        	if(d && d == 'callRadio') {
+        		$scope.callOrPut = 'CALL';
+        	} else {
+        		$scope.callOrPut = 'PUT';
+        	}
+        	
+        	console.log('radioClicked');
+          };
+          
           $scope.dataFromCurrency = {
     		  fromCurrency: null,
     		  toCurrency : null,
