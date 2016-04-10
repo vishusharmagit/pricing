@@ -1,6 +1,6 @@
 # pricing
 
-Working on trading application.
+ Working on trading application.
 
 To make it work in locally.
 Clone or download this repository.
