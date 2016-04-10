@@ -1,4 +1,4 @@
-# pricing
+# FX Trading
 
  Working on trading application.
 
